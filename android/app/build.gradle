@@ -207,6 +207,7 @@ dependencies {
   api 'host.exp.exponent:expo-react-native-adapter:2.0.0'
   api 'host.exp.exponent:expo-task-manager:1.0.0'
   api 'host.exp.exponent:expo-task-manager-interface:1.0.0'
+  api 'host.exp.exponent:expo-payments-stripe:2.0.0'
 
   // Optional universal modules, could be removed
   // along with references in MainActivity

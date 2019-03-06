@@ -34,6 +34,7 @@ import expolib_v1.okhttp3.OkHttpClient;
 
 // Needed for `react-native link`
 // import com.facebook.react.ReactApplication;
+import expo.modules.payments.stripe.StripePackage;
 
 public class MainApplication extends ExpoApplication implements AppLoaderPackagesProviderInterface<ReactPackage> {
 
@@ -77,6 +78,7 @@ public class MainApplication extends ExpoApplication implements AppLoaderPackage
         new LocalizationPackage(),
         new AppAuthPackage(),
         new TaskManagerPackage(),
+        new StripePackage(),
         new BackgroundFetchPackage()
     );
   }
