@@ -54,3 +54,7 @@ This error is located at:
 - ... 16 more stack frames from framework internals
 
 ```
+
+expo payments fix commit solved the problem
+
+https://github.com/expo/expo/issues/3597#issuecomment-470121059
